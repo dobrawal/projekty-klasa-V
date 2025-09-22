@@ -3,25 +3,31 @@ body
     background-color: rgb(8, 41, 22);
     color: rgb(199, 115, 143);
 }
+
 header
 {
     text-align: center;
     font-size: 30px;
 }
+
 main
 {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
 }
+
 a
 {
     text-decoration: none;
     color: maroon;
 }
+
 a:hover
 {
     color: rgb(8, 41, 22);
 }
+
 div
 {
     background-color: rgb(199, 115, 143);
@@ -33,3 +39,4 @@ div
     padding: 5px;
     font-weight: bold;
 }
+
